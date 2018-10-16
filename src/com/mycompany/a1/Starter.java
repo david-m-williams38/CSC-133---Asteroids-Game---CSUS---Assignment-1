@@ -25,7 +25,7 @@ public class Starter {
 
         theme = UIManager.initFirstTheme("/theme");
 
-        // Enable Toolbar on all Forms by default
+        // Enable ToolBar on all Forms by default
         Toolbar.setGlobalToolbar(true);
 
         // Pro only feature, uncomment if you have a pro subscription

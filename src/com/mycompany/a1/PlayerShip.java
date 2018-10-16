@@ -59,7 +59,7 @@ public class PlayerShip extends Ship implements ISteerable {
 		ml.turn(degrees);
 	}
 	
-	// Fires a missile... I wish it was a nuke instead....
+	// Fires a missile... I wish it was a nuclear bomb instead....
 	public Missile fire() {
 		missileCount -= 1;
 		return ml.fire(this.getSpeed());
